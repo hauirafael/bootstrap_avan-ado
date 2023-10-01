@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+</head>
+<body>
+    <div class="container">
+        <div id="carousel-exemplo" class="carousel carousel-fade slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active" data-bs-interval="3000">
+                    <img class="d-block w-100" src="https://cdn.pixabay.com/photo/2015/11/17/13/13/bulldog-1047518_1280.jpg" alt="">
+                    <div class="carousel-caption">
+                        <h2>Foto</h2>
+                    </div>
+                </div>
+                <div class="carousel-item" data-bs-interval="3000">
+                    <img class="d-block w-100" src="https://cdn.pixabay.com/photo/2017/09/25/13/12/puppy-2785074_1280.jpg" alt="">
+                    <div class="carousel-caption">
+                        <h2>Foto</h2>
+                    </div>
+                </div>
+                <div class="carousel-item" data-bs-interval="3000">
+                    <img class="d-block w-100" src="https://cdn.pixabay.com/photo/2023/09/19/12/34/dog-8262506_1280.jpg" alt="">
+                    <div class="carousel-caption">
+                        <h2>Foto</h2>
+                    </div>
+                </div>
+            </div>
+            <button data-bs-target="#carousel-exemplo" data-bs-slide="prev" class="carousel-control-prev" type="button">
+                <span class="carousel-control-prev-icon"></span>
+            </button>
+            <button data-bs-target="#carousel-exemplo" data-bs-slide="next" class="carousel-control-next" type="button">
+                <span class="carousel-control-next-icon"></span>
+            </button>
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carousel-exemplo" class="active" data-bs-slide-to="0"></button>
+                <button type="button" data-bs-target="#carousel-exemplo" data-bs-slide-to="1"></button>
+                <button type="button" data-bs-target="#carousel-exemplo" data-bs-slide-to="2"></button>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <img class="w-100" src="https://media.istockphoto.com/id/1306641965/photo/cobberdog-pup-on-white-background.webp?b=1&s=612x612&w=0&k=20&c=TGjgTR_-W5mpRWXnRD7yYqHaLqG4QKPtzV9eQ4WWE7E=" alt="">
+                <h3>Cachorro</h3>
+            </div>
+            <div class="col">
+                <img class="w-100" src="https://media.istockphoto.com/id/1306641965/photo/cobberdog-pup-on-white-background.webp?b=1&s=612x612&w=0&k=20&c=TGjgTR_-W5mpRWXnRD7yYqHaLqG4QKPtzV9eQ4WWE7E=" alt="">
+                <h3>Dog</h3>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-4">
+                <article class="card">
+                    <header class="card-header">
+                        Desenvolvimento Web
+                    </header>
+                    <img src="https://cdn.pixabay.com/photo/2015/11/17/13/13/bulldog-1047518_1280.jpg" alt="">
+                    <div class="card-body">
+                        <h4 class="card-title">Cards do Bootstrap</h4>
+                        <p class="card-text">
+                            Conheça os Cards do Bootstrap e suas variações.
+                        </p>
+                        <a href="#" class="btn btn-primary">Leia mais</a>
+                    </div>
+                    <footer class="card-footer">
+                        Postado em <time>10/08/2022 às 19:00:00</time>
+                    </footer>
+                </article>
+            </div>
+            <div class="col-4">
+                <div class="card text-dark">
+                    <div class="card-header">
+                        Cabeçalho do header
+                    </div>
+                    <img src="https://cdn.pixabay.com/photo/2023/09/19/12/34/dog-8262506_1280.jpg" alt="">
+                    <div class="card-body">
+                        <h4 class="card-title">Título do Card</h4>
+                       
+                        <p class="card-text">
+                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facere quasi, dicta rerum nostrum, officiis eos veritatis repudiandae fugit voluptatem mollitia distinctio quod hic maxime quidem? Neque, aspernatur! Magni, ut iure!
+                        </p>
+                        <a href="#" class="btn btn-primary">Botão link</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Corrigido o caminho do arquivo JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
